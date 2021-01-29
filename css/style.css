@@ -41,7 +41,7 @@ p {
 	/* padding-top: 20px; */
 }
 
-.tesla-car {
+.car-background {
 	background: url('../image_resources/model-3-hero-desktop.jpg') no-repeat
 		center center/cover;
 	height: 100vh;
@@ -78,4 +78,22 @@ p {
 	display: block;
 	padding: 20px;
 	text-align: center;
+}
+
+.model-3 {
+	min-height: auto;
+	min-width: 100%;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+.order-now {
+	color: white;
+	border-color: white;
+	border-width: 4px;
+	font-size: 14px;
+	padding: 8px 17px;
+	cursor: pointer;
+	border-radius: 20px;
 }
