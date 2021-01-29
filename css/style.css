@@ -7,7 +7,7 @@
 
 /* Main Styling */
 body {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.7em;
 }
 
@@ -38,7 +38,7 @@ p {
 
 #navbar h1 {
 	float: left;
-	/* padding-top: 20px; */
+	padding-top: 20px;
 }
 
 .car-background {
@@ -54,6 +54,7 @@ p {
 		center/cover;
 	height: 18px;
 	width: 18px;
+	margin-top: 20px;
 }
 
 #navbar a {
@@ -87,17 +88,47 @@ p {
 	text-align: center;
 	color: white;
 }
-
-.order-now {
+.reg5 {
+	background: grey;
 	color: white;
 	border-color: white;
-	border-width: 4px;
+	border-width: 2px;
 	font-size: 14px;
-	padding: 8px 17px;
+	padding: 12px 25px;
 	cursor: pointer;
 	border-radius: 20px;
 }
-
+.reg5:hover {
+	background: white;
+}
+/* 
+.order-now {
+	color: white;
+	border-color: white;
+	border-width: 2px;
+	font-size: 14px;
+	padding: 12px 25px;
+	border-radius: 20px;
+}
+.order-now:hover {
+	background: white; */
+/* } */
+.order-now {
+	background: transparent;
+	color: white;
+	border-color: white;
+	border: width 4px;
+	font-size: 12px;
+	padding: 12px 25px;
+	cursor: pointer;
+	border-radius: 20px;
+	line-height: 14px;
+	border-style: solid;
+}
+.order-now:hover {
+	background: white;
+	color: #171a20;
+}
 .bottom-container {
 	display: flex;
 	align-items: center;
