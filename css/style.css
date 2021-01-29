@@ -97,3 +97,12 @@ p {
 	cursor: pointer;
 	border-radius: 20px;
 }
+
+.bottom-container {
+	display: flex;
+	align-items: center;
+}
+
+.divider-line {
+	color: white;
+}
