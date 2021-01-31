@@ -1,0 +1,156 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+#navbar {
+  color: #fff;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+.up-arrow {
+  float: right;
+  background: url('../image_resources/upArrowRed.png') no-repeat center
+    center/cover;
+  height: 19px;
+  width: 19px;
+  color: transparent;
+  margin-top: 15px;
+}
+#navbar h2 {
+  float: left;
+  background: url('../image_resources/teslaRed.png') no-repeat center
+    center/cover;
+  padding: 10px 60px;
+}
+#navbar h3 {
+  float: right;
+  padding: 20px;
+}
+
+
+.car-background {
+  background: url('../image_resources/performance.jpg') no-repeat center
+    center/cover;
+  height: 650px;
+  width: 100vw;
+}
+
+
+
+.order-now {
+  background: transparent;
+  color: white;
+  border-color: black;
+  border: width 4px;
+  font-size: 12px;
+  padding: 12px 25px;
+  cursor: pointer;
+  border-radius: 20px;
+  line-height: 14px;
+  border-style: solid;
+}
+
+
+.order-now:hover {
+  background: white;
+  color: #171a20;
+}
+
+.midle-container {
+  color: white;
+  margin-top: 450px;
+  align-items: center; 
+  display: flex;
+  margin-left: 460px;
+  max-width: 1000px;
+  overflow: auto;
+  padding: 25px;
+  
+}
+
+.tds-text {
+font-size: 30px;
+} 
+
+
+
+.divider-line {
+  color: white;
+}
+
+#home-info {
+	float:right
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 33%;
+}
+.h1 {
+	font-size: 30px;
+}
+
+.order-now:hover {
+  background: white;
+  color: #171a20;
+}
+.btn {
+  background: transparent;
+  color: black;
+  border-color: black;
+  border: width 4px;
+  font-size: 15px;
+  padding: 12px 25px;
+  cursor: pointer;
+  border-radius: 20px;
+  line-height: 14px;
+  border-style: solid;
+}
+
+
+.btn:hover {
+  background: black;
+  color: white;
+}
+.bottom-container {
+  display: flex;
+  align-items: center;
+	margin-top: 60px;
+	margin-left: 300px;
+	max-width: 1200px;
+	overflow: auto;
+	padding: 20px 20px;
+}
+.paragraf color {
+	color: #(220,220,220);
+}

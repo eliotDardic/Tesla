@@ -1,105 +1,124 @@
 /* reset */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Main Styling */
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	line-height: 1.7em;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7em;
 }
 
 a {
-	color: #333;
-	text-decoration: none;
+  color: #333;
+  text-decoration: none;
 }
 
 h1,
 h2,
 h3 {
-	padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 p {
-	margin: 10px 0;
+  margin: 10px 0;
 }
 
 #navbar {
-	color: #fff;
-	overflow: auto;
-	padding: 0 20px;
+  color: #fff;
+  overflow: auto;
+  padding: 0 20px;
 }
 
 #navbar a {
-	color: #fff;
+  color: #fff;
 }
 
 .hamburger {
-	float: right;
-	background: url('../image_resources/hamburger.png') no-repeat center
-		center/cover;
-	height: 18px;
-	width: 18px;
+  float: right;
+  background: url('../image_resources/hamburger.png') no-repeat center
+    center/cover;
+  height: 18px;
+  width: 18px;
+}
+#navbar h2 {
+  float: left;
+  background: url('../image_resources/teslaMain.png') no-repeat center
+    center/cover;
+  padding: 10px 60px;
 }
 
 #navbar h3 {
-	float: right;
-	padding: 20px;
+  float: right;
+  padding: 20px;
 }
 
 #navbar ul {
-	list-style: none;
-	float: right;
-	padding-right: 150px;
+  list-style: none;
+  float: right;
+  padding-right: 150px;
 }
 
 #navbar ul li {
-	float: left;
+  float: left;
 }
 
 #navbar ul li a {
-	display: block;
-	padding: 20px;
-	text-align: center;
+  display: block;
+  padding: 20px;
+  text-align: center;
 }
 .car-background {
-	background: url('../image_resources/model-3-hero-desktop.jpg') no-repeat
-		center center/cover;
-	height: 100vh;
-	width: 100vw;
+  background: url('../image_resources/model-3-hero-desktop.jpg') no-repeat
+    center center/cover;
+  height: 100vh;
+  width: 100vw;
 }
 
 .model-3 {
-	min-height: auto;
-	min-width: 100%;
-	font-size: 20px;
-	text-align: center;
-	color: white;
+  min-height: auto;
+  min-width: 100%;
+  font-size: 20px;
+  text-align: center;
+  color: white;
 }
 
 .order-now {
-	background: transparent;
-	color: white;
-	border-color: white;
-	border: width 4px;
-	font-size: 12px;
-	padding: 12px 25px;
-	cursor: pointer;
-	border-radius: 20px;
-	line-height: 14px;
-	border-style: solid;
+  background: transparent;
+  color: white;
+  border-color: white;
+  border: width 4px;
+  font-size: 12px;
+  padding: 12px 25px;
+  cursor: pointer;
+  border-radius: 20px;
+  line-height: 14px;
+  border-style: solid;
 }
 .order-now:hover {
-	background: white;
-	color: #171a20;
-}
-.bottom-container {
-	display: flex;
-	align-items: center;
+  background: white;
+  color: #171a20;
 }
 
+.bottom-container {
+  display: flex;
+  color: white;
+  margin-top: 650px;
+  align-items: center;
+  display: flex;
+  margin-left: 800px;
+  max-width: 1000px;
+  overflow: auto;
+}
+.callout-container {
+  padding: 30px;
+  text-align: center;
+}
+.tds-text {
+  font-size: 30px;
+}
 .divider-line {
-	color: white;
+  color: white;
 }
